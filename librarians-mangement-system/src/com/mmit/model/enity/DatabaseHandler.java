@@ -11,7 +11,7 @@ import java.util.List;
 public class DatabaseHandler {
 
 	public static Connection createConnection() throws SQLException {
-		Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/book_library_management","root","");
+		Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/libaray_management","root","");
 		
 		return conn;
 	}
